@@ -7,10 +7,10 @@ def fibonacci(n, list):
         return 0
     elif n == 1:
         return 1
-    elif len(list) == n:
+    elif len(list) == n + 1:
         return list
     else:
         return fibonacci(n, list)
 
 
-print(fibonacci(9, list_fibonacci))
+print(fibonacci(8, list_fibonacci))
